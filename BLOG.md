@@ -167,5 +167,5 @@ Mostly I'm tired. Submitting in 8 hours. Then I sleep.
 *Code: [github.com/kavyanshshakya/strathos](https://github.com/kavyanshshakya/strathos)*
 *Live env: [huggingface.co/spaces/kavyanshshakya/strathos](https://huggingface.co/spaces/kavyanshshakya/strathos)*
 *Models: [SFT (deployed)](https://huggingface.co/kavyanshshakya/strathos-qwen17b-sft) · [GRPO (research)](https://huggingface.co/kavyanshshakya/strathos-qwen17b-grpo) · [SFT-traced (with wandb)](https://huggingface.co/kavyanshshakya/strathos-qwen17b-sft-traced)*
-*Tracking: [wandb run](https://wandb.ai/kavyanshshakya-indian-institute-of-science-education-and/strathos-tracking/runs/g3cxonxb)*
+*Tracking: [wandb run](https://wandb.ai/kavyanshshakya-indian-institute-of-science-education-and/strathos-tracking/reports/Untitled-Report--VmlldzoxNjY3NTk0Mg?accessToken=0r1avgwgy9yaro0crej4r1w6yu4dzh41ayxgrqzi7qiolgc6i3kvv83ij13cduiw)*
 *Dataset: [OWASP ASI 2026 scenarios — 8 of 10 classes shipped](https://huggingface.co/datasets/kavyanshshakya/strathos-asi-scenarios)*
