@@ -1,0 +1,26 @@
+$ STRATHOS_ENV_URL=https://kavyanshshakya-strathos.hf.space pytest tests/test_strathos.py -v
+
+============================= test session starts ==============================
+platform linux -- Python 3.12.13, pytest-8.4.2, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /content/strathos-repo
+configfile: pyproject.toml
+plugins: langsmith-0.7.30, typeguard-4.5.1, anyio-4.13.0
+collecting ... collected 11 items
+
+tests/test_strathos.py::test_scenarios_load PASSED                       [  9%]
+tests/test_strathos.py::test_scenarios_unique_ids PASSED                 [ 18%]
+tests/test_strathos.py::test_scenarios_required_fields PASSED            [ 27%]
+tests/test_strathos.py::test_scenarios_asi_class_valid PASSED            [ 36%]
+tests/test_strathos.py::test_scenarios_decision_enum PASSED              [ 45%]
+tests/test_strathos.py::test_scenarios_optimal_tools_nonempty PASSED     [ 54%]
+tests/test_strathos.py::test_eight_asi_classes_covered PASSED            [ 63%]
+tests/test_strathos.py::test_env_health PASSED                           [ 72%]
+tests/test_strathos.py::test_env_reset_returns_observation PASSED        [ 81%]
+tests/test_strathos.py::test_env_step_with_refuse_on_adversarial PASSED  [ 90%]
+tests/test_strathos.py::test_env_diverse_scenarios_served PASSED         [100%]
+
+============================== 11 passed in 8.81s ==============================
+
+
+Exit code: 0

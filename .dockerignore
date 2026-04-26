@@ -1,0 +1,15 @@
+__pycache__
+*.pyc
+*.pyo
+*.bak
+*.bak2
+.git
+.gitignore
+.pytest_cache
+*.egg-info
+.DS_Store
+notebooks
+tests
+scripts
+*.md
+!README.md

@@ -1,0 +1,44 @@
+[project]
+name = "strathos"
+version = "0.1.0"
+description = "OpenEnv RL environment for hardening AI agents against OWASP ASI 2026 adversarial compromise."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Kavyansh Shakya" }]
+keywords = [
+    "openenv",
+    "reinforcement-learning",
+    "llm",
+    "owasp",
+    "agent-security",
+    "grpo",
+    "trl",
+    "qwen",
+]
+
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "websockets>=12.0",
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
+    "requests>=2.31",
+    "openenv-core>=0.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.21",
+]
+
+[project.scripts]
+server = "server.app:main"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["server*"]

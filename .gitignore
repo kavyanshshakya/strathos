@@ -1,0 +1,34 @@
+openenv-ref/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+*.log
+.DS_Store
+data/models/
+data/trajectories/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Local backups created during restructure
+*.bak
+*.bak2
+restructure.sh
+inference.py.bak
+inference.py.bak2
+server/models.py.bak
+
+# Backup files
+server/models.py.bak
+**/*.bak
+**/__pycache__/
+
+# Training checkpoints — published as HF Hub model instead
+strathos-grpo/
+strathos-sft-*-adapter/
+strathos-sft-*/
+*.pkl
