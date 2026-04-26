@@ -34,7 +34,7 @@ Solo entry, Meta PyTorch OpenEnv Hackathon Grand Finale, Bangalore, April 25-26,
 | SFT model (deployed, V2-PLUS) | https://huggingface.co/kavyanshshakya/strathos-qwen17b-sft |
 | GRPO model (research artifact) | https://huggingface.co/kavyanshshakya/strathos-qwen17b-grpo |
 | SFT re-training trace (with wandb) | https://huggingface.co/kavyanshshakya/strathos-qwen17b-sft-traced |
-| Wandb experimental tracking | https://wandb.ai/kavyanshshakya-indian-institute-of-science-education-and/strathos-tracking |
+| Wandb experimental tracking | https://wandb.ai/kavyanshshakya-indian-institute-of-science-education-and/strathos-tracking/reports/Untitled-Report--VmlldzoxNjY3NTk0Mg?accessToken=0r1avgwgy9yaro0crej4r1w6yu4dzh41ayxgrqzi7qiolgc6i3kvv83ij13cduiw |
 | Colab training notebook (public) | https://colab.research.google.com/drive/1ggnRHlcE9Tk3RWxUpYSf3w-CaD3QNstV?usp=sharing |
 | Roadmap (post-hackathon plans) | https://github.com/kavyanshshakya/strathos/blob/main/ROADMAP.md |
 | Visual showcase (Space root) | https://kavyanshshakya-strathos.hf.space/ |
@@ -238,8 +238,8 @@ Last run: 11/11 passed in 8.81s. See [`tests/last_run.txt`](tests/last_run.txt).
 
 Stage 2 SFT re-training (continued from deployed V2-PLUS) was traced with wandb:
 
-- **Wandb run** (real loss curve, 3 epochs, 75 steps): [v2plus-traced-rerun](https://wandb.ai/kavyanshshakya-indian-institute-of-science-education-and/strathos-tracking/runs/g3cxonxb)
-- **Wandb project** (overview + comparisons): [strathos-tracking](https://wandb.ai/kavyanshshakya-indian-institute-of-science-education-and/strathos-tracking)
+- **Wandb run** (real loss curve, 3 epochs, 75 steps): [v2plus-traced-rerun](https://wandb.ai/kavyanshshakya-indian-institute-of-science-education-and/strathos-tracking/reports/Untitled-Report--VmlldzoxNjY3NTk0Mg?accessToken=0r1avgwgy9yaro0crej4r1w6yu4dzh41ayxgrqzi7qiolgc6i3kvv83ij13cduiw)
+- **Wandb project** (overview + comparisons): [strathos-tracking](https://wandb.ai/kavyanshshakya-indian-institute-of-science-education-and/strathos-tracking/reports/Untitled-Report--VmlldzoxNjY3NTk0Mg?accessToken=0r1avgwgy9yaro0crej4r1w6yu4dzh41ayxgrqzi7qiolgc6i3kvv83ij13cduiw)
 - **Trained adapter**: [`strathos-qwen17b-sft-traced`](https://huggingface.co/kavyanshshakya/strathos-qwen17b-sft-traced)
 
 The deployed model is V2-PLUS (`strathos-qwen17b-sft`); the traced adapter is published separately as a verifiable re-training reference.
